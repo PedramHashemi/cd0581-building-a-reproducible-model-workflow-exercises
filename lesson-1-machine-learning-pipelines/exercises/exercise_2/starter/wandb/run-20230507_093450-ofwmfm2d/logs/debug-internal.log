@@ -1,0 +1,184 @@
+2023-05-07 09:34:50,779 INFO    StreamThr :61358 [internal.py:wandb_internal():86] W&B internal server running at pid: 61358, started at: 2023-05-07 09:34:50.779172
+2023-05-07 09:34:50,780 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: status
+2023-05-07 09:34:50,780 INFO    WriterThread:61358 [datastore.py:open_for_write():85] open: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/run-ofwmfm2d.wandb
+2023-05-07 09:34:50,781 DEBUG   SenderThread:61358 [sender.py:send():375] send: header
+2023-05-07 09:34:50,789 DEBUG   SenderThread:61358 [sender.py:send():375] send: run
+2023-05-07 09:34:51,229 INFO    SenderThread:61358 [dir_watcher.py:__init__():219] watching files in: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files
+2023-05-07 09:34:51,229 INFO    SenderThread:61358 [sender.py:_start_run_threads():1124] run started: ofwmfm2d with start time 1683444890.779101
+2023-05-07 09:34:51,229 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: summary_record
+2023-05-07 09:34:51,230 INFO    SenderThread:61358 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 09:34:51,231 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: check_version
+2023-05-07 09:34:51,231 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: check_version
+2023-05-07 09:34:51,378 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: run_start
+2023-05-07 09:34:51,385 DEBUG   HandlerThread:61358 [system_info.py:__init__():31] System info init
+2023-05-07 09:34:51,385 DEBUG   HandlerThread:61358 [system_info.py:__init__():46] System info init done
+2023-05-07 09:34:51,385 INFO    HandlerThread:61358 [system_monitor.py:start():181] Starting system monitor
+2023-05-07 09:34:51,386 INFO    SystemMonitor:61358 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-07 09:34:51,386 INFO    HandlerThread:61358 [system_monitor.py:probe():201] Collecting system info
+2023-05-07 09:34:51,386 DEBUG   HandlerThread:61358 [system_info.py:probe():195] Probing system
+2023-05-07 09:34:51,386 INFO    SystemMonitor:61358 [interfaces.py:start():190] Started cpu monitoring
+2023-05-07 09:34:51,387 INFO    SystemMonitor:61358 [interfaces.py:start():190] Started disk monitoring
+2023-05-07 09:34:51,387 INFO    SystemMonitor:61358 [interfaces.py:start():190] Started gpuapple monitoring
+2023-05-07 09:34:51,387 INFO    SystemMonitor:61358 [interfaces.py:start():190] Started memory monitoring
+2023-05-07 09:34:51,391 INFO    SystemMonitor:61358 [interfaces.py:start():190] Started network monitoring
+2023-05-07 09:34:51,393 DEBUG   HandlerThread:61358 [system_info.py:_probe_git():180] Probing git
+2023-05-07 09:34:51,408 DEBUG   HandlerThread:61358 [system_info.py:_probe_git():188] Probing git done
+2023-05-07 09:34:51,408 DEBUG   HandlerThread:61358 [system_info.py:probe():240] Probing system done
+2023-05-07 09:34:51,408 DEBUG   HandlerThread:61358 [system_monitor.py:probe():210] {'os': 'macOS-13.2.1-arm64-arm-64bit', 'python': '3.9.16', 'heartbeatAt': '2023-05-07T07:34:51.386770', 'startedAt': '2023-05-07T07:34:50.771267', 'docker': None, 'cuda': None, 'args': ('--file_url', 'https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv', '--artifact_name', 'iris', '--artifact_type', 'raw_data', '--artifact_description', 'This data sets consists of 3 different types of irises’ (Setosa, Versicolour, and Virginica) petal and sepal length'), 'state': 'running', 'program': '/Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/download_data.py', 'codePath': 'lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/download_data.py', 'git': {'remote': 'https://github.com/PedramHashemi/cd0581-building-a-reproducible-model-workflow-exercises.git', 'commit': 'f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827'}, 'email': 's.pedram.h@gmail.com', 'root': '/Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises', 'host': 'Hulk.fritz.box', 'username': 'pedram', 'executable': '/Users/pedram/miniconda3/envs/mlflow-293d18e8c60c675c82f619ca38faa3b0ef9ee34f/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'total': 926.3517189025879, 'used': 184.75101470947266}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-05-07 09:34:51,408 INFO    HandlerThread:61358 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-07 09:34:51,408 INFO    HandlerThread:61358 [system_monitor.py:probe():214] Publishing system info
+2023-05-07 09:34:51,408 DEBUG   HandlerThread:61358 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-07 09:34:51,408 DEBUG   HandlerThread:61358 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-07 09:34:51,408 DEBUG   HandlerThread:61358 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-07 09:34:52,231 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/wandb-summary.json
+2023-05-07 09:34:52,232 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/requirements.txt
+2023-05-07 09:34:52,232 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/conda-environment.yaml
+2023-05-07 09:34:52,392 DEBUG   HandlerThread:61358 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-07 09:34:52,392 INFO    HandlerThread:61358 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-07 09:34:52,395 DEBUG   SenderThread:61358 [sender.py:send():375] send: files
+2023-05-07 09:34:52,395 INFO    SenderThread:61358 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-07 09:34:52,398 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-07 09:34:52,398 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: stop_status
+2023-05-07 09:34:52,582 DEBUG   SenderThread:61358 [sender.py:send():375] send: telemetry
+2023-05-07 09:34:52,893 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-07 09:34:52,893 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: log_artifact
+2023-05-07 09:34:52,907 INFO    wandb-upload_0:61358 [upload_job.py:push():137] Uploaded file /var/folders/v5/0976mnlx54z7jmk4_t491_2r0000gn/T/tmpbdwzp6v6wandb/z3zw6khw-wandb-metadata.json
+2023-05-07 09:34:53,236 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/conda-environment.yaml
+2023-05-07 09:34:53,237 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/output.log
+2023-05-07 09:34:53,237 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/wandb-metadata.json
+2023-05-07 09:34:54,293 INFO    wandb-upload_0:61358 [upload_job.py:push():95] Uploaded file /Users/pedram/Library/Application Support/wandb/artifacts/staging/tmpslisxqqc
+2023-05-07 09:34:55,240 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/output.log
+2023-05-07 09:34:55,785 INFO    SenderThread:61358 [sender.py:send_request_log_artifact():1438] logged artifact iris - {'id': 'QXJ0aWZhY3Q6NDQ1MTg3MzU5', 'digest': '4e856f9f3a3d03e1c145c8f8e2bec8aa', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY3MjI0Mzcz', 'latestArtifact': None}, 'version': 'latest'}
+2023-05-07 09:34:55,786 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 09:34:56,385 DEBUG   SenderThread:61358 [sender.py:send():375] send: telemetry
+2023-05-07 09:34:56,385 DEBUG   SenderThread:61358 [sender.py:send():375] send: exit
+2023-05-07 09:34:56,385 INFO    SenderThread:61358 [sender.py:send_exit():598] handling exit code: 0
+2023-05-07 09:34:56,386 INFO    SenderThread:61358 [sender.py:send_exit():600] handling runtime: 5
+2023-05-07 09:34:56,387 INFO    SenderThread:61358 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 09:34:56,387 INFO    SenderThread:61358 [sender.py:send_exit():606] send defer
+2023-05-07 09:34:56,387 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,387 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-07 09:34:56,387 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,387 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-07 09:34:56,387 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 1
+2023-05-07 09:34:56,388 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,388 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-07 09:34:56,388 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,388 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-07 09:34:56,388 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 2
+2023-05-07 09:34:56,389 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,389 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-07 09:34:56,389 INFO    HandlerThread:61358 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-07 09:34:56,389 DEBUG   SystemMonitor:61358 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-07 09:34:56,389 DEBUG   SystemMonitor:61358 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-07 09:34:56,389 DEBUG   SystemMonitor:61358 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-07 09:34:56,390 INFO    HandlerThread:61358 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-07 09:34:56,390 INFO    HandlerThread:61358 [interfaces.py:finish():202] Joined disk monitor
+2023-05-07 09:34:56,390 INFO    HandlerThread:61358 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-05-07 09:34:56,390 INFO    HandlerThread:61358 [interfaces.py:finish():202] Joined memory monitor
+2023-05-07 09:34:56,390 INFO    HandlerThread:61358 [interfaces.py:finish():202] Joined network monitor
+2023-05-07 09:34:56,391 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,391 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-07 09:34:56,391 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 3
+2023-05-07 09:34:56,391 DEBUG   SenderThread:61358 [sender.py:send():375] send: telemetry
+2023-05-07 09:34:56,391 DEBUG   SenderThread:61358 [sender.py:send():375] send: stats
+2023-05-07 09:34:56,391 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,391 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-07 09:34:56,391 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,391 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-07 09:34:56,392 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 4
+2023-05-07 09:34:56,392 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,392 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-07 09:34:56,392 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,392 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-07 09:34:56,392 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 5
+2023-05-07 09:34:56,392 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,392 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-07 09:34:56,392 DEBUG   SenderThread:61358 [sender.py:send():375] send: summary
+2023-05-07 09:34:56,392 INFO    SenderThread:61358 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-07 09:34:56,393 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,393 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-07 09:34:56,393 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 6
+2023-05-07 09:34:56,393 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,393 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-07 09:34:56,393 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,394 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-07 09:34:56,396 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: status_report
+2023-05-07 09:34:56,565 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 7
+2023-05-07 09:34:56,565 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,565 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-07 09:34:56,565 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,565 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-07 09:34:56,723 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 8
+2023-05-07 09:34:56,723 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,724 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-07 09:34:56,724 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:56,724 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-07 09:34:56,728 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 9
+2023-05-07 09:34:56,728 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:56,728 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-07 09:34:56,729 DEBUG   SenderThread:61358 [sender.py:send():375] send: artifact
+2023-05-07 09:34:57,250 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/output.log
+2023-05-07 09:34:57,251 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/wandb-summary.json
+2023-05-07 09:34:57,251 INFO    Thread-12 :61358 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/config.yaml
+2023-05-07 09:34:57,387 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 09:34:57,868 INFO    wandb-upload_1:61358 [upload_job.py:push():95] Uploaded file /Users/pedram/Library/Application Support/wandb/artifacts/staging/tmphosarcdv
+2023-05-07 09:34:57,869 INFO    wandb-upload_0:61358 [upload_job.py:push():95] Uploaded file /Users/pedram/Library/Application Support/wandb/artifacts/staging/tmp_wfft3vm
+2023-05-07 09:34:59,039 INFO    SenderThread:61358 [sender.py:send_artifact():1474] sent artifact job-https___github.com_PedramHashemi_cd0581-building-a-reproduc..earning-pipelines_exercises_exercise_2_starter_download_data.py - {'id': 'QXJ0aWZhY3Q6NDQ1MTg3Mzkz', 'digest': '78462fae71f0decccedf7d2be9e7ac06', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY3MjI0Mzgw', 'latestArtifact': None}, 'version': 'latest'}
+2023-05-07 09:34:59,039 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:59,039 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-07 09:34:59,039 INFO    SenderThread:61358 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-07 09:34:59,257 INFO    SenderThread:61358 [dir_watcher.py:finish():395] scan: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files
+2023-05-07 09:34:59,257 INFO    SenderThread:61358 [dir_watcher.py:finish():409] scan save: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/requirements.txt requirements.txt
+2023-05-07 09:34:59,258 INFO    SenderThread:61358 [dir_watcher.py:finish():409] scan save: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/output.log output.log
+2023-05-07 09:34:59,258 INFO    SenderThread:61358 [dir_watcher.py:finish():409] scan save: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/config.yaml config.yaml
+2023-05-07 09:34:59,258 INFO    SenderThread:61358 [dir_watcher.py:finish():409] scan save: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/wandb-summary.json wandb-summary.json
+2023-05-07 09:34:59,263 INFO    SenderThread:61358 [dir_watcher.py:finish():409] scan save: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/conda-environment.yaml conda-environment.yaml
+2023-05-07 09:34:59,265 INFO    SenderThread:61358 [dir_watcher.py:finish():409] scan save: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/wandb-metadata.json wandb-metadata.json
+2023-05-07 09:34:59,267 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 10
+2023-05-07 09:34:59,267 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 09:34:59,267 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:34:59,268 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-07 09:34:59,268 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:34:59,268 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-07 09:34:59,268 INFO    SenderThread:61358 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-07 09:34:59,712 INFO    wandb-upload_2:61358 [upload_job.py:push():137] Uploaded file /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/config.yaml
+2023-05-07 09:34:59,779 INFO    wandb-upload_0:61358 [upload_job.py:push():137] Uploaded file /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/output.log
+2023-05-07 09:34:59,815 INFO    wandb-upload_4:61358 [upload_job.py:push():137] Uploaded file /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/conda-environment.yaml
+2023-05-07 09:34:59,816 INFO    wandb-upload_3:61358 [upload_job.py:push():137] Uploaded file /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/wandb-summary.json
+2023-05-07 09:34:59,833 INFO    wandb-upload_1:61358 [upload_job.py:push():137] Uploaded file /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/files/requirements.txt
+2023-05-07 09:35:00,034 INFO    Thread-11 :61358 [sender.py:transition_state():626] send defer: 11
+2023-05-07 09:35:00,035 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:35:00,035 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-07 09:35:00,035 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:35:00,035 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-07 09:35:00,036 INFO    SenderThread:61358 [file_pusher.py:join():172] waiting for file pusher
+2023-05-07 09:35:00,036 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 12
+2023-05-07 09:35:00,036 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:35:00,036 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-07 09:35:00,036 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:35:00,036 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-07 09:35:00,270 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 13
+2023-05-07 09:35:00,271 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:35:00,271 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-07 09:35:00,271 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:35:00,271 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-07 09:35:00,271 INFO    SenderThread:61358 [sender.py:transition_state():626] send defer: 14
+2023-05-07 09:35:00,272 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: defer
+2023-05-07 09:35:00,272 DEBUG   SenderThread:61358 [sender.py:send():375] send: final
+2023-05-07 09:35:00,272 INFO    HandlerThread:61358 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-07 09:35:00,272 DEBUG   SenderThread:61358 [sender.py:send():375] send: footer
+2023-05-07 09:35:00,272 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: defer
+2023-05-07 09:35:00,272 INFO    SenderThread:61358 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-07 09:35:00,273 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-07 09:35:00,273 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: server_info
+2023-05-07 09:35:00,273 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-07 09:35:00,273 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-07 09:35:00,274 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: poll_exit
+2023-05-07 09:35:00,274 DEBUG   SenderThread:61358 [sender.py:send_request():402] send_request: server_info
+2023-05-07 09:35:00,410 DEBUG   HandlerThread:61358 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-07 09:35:00,411 INFO    HandlerThread:61358 [handler.py:finish():845] shutting down handler
+2023-05-07 09:35:01,279 INFO    WriterThread:61358 [datastore.py:close():298] close: /Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/wandb/run-20230507_093450-ofwmfm2d/run-ofwmfm2d.wandb
+2023-05-07 09:35:01,414 INFO    SenderThread:61358 [sender.py:finish():1550] shutting down sender
+2023-05-07 09:35:01,415 INFO    SenderThread:61358 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-07 09:35:01,415 INFO    SenderThread:61358 [file_pusher.py:join():172] waiting for file pusher

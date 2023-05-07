@@ -1,0 +1,43 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-05-07T07:34:51.386770",
+    "startedAt": "2023-05-07T07:34:50.771267",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "This data sets consists of 3 different types of irises\u2019 (Setosa, Versicolour, and Virginica) petal and sepal length"
+    ],
+    "state": "running",
+    "program": "/Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/download_data.py",
+    "git": {
+        "remote": "https://github.com/PedramHashemi/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": "s.pedram.h@gmail.com",
+    "root": "/Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "Hulk.fritz.box",
+    "username": "pedram",
+    "executable": "/Users/pedram/miniconda3/envs/mlflow-293d18e8c60c675c82f619ca38faa3b0ef9ee34f/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 184.75101470947266
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

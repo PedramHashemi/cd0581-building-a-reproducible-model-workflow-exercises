@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/210d71741080421aaf90295b0af0c36a/artifacts
+end_time: 1683444903546
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 210d71741080421aaf90295b0af0c36a
+run_name: intelligent-ant-820
+run_uuid: 210d71741080421aaf90295b0af0c36a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683444797509
+status: 3
+tags: []
+user_id: pedram

@@ -1,0 +1,5 @@
+name: mlflow-293d18e8c60c675c82f619ca38faa3b0ef9ee34f
+channels:
+  - defaults
+  - conda-forge
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/mlflow-293d18e8c60c675c82f619ca38faa3b0ef9ee34f
