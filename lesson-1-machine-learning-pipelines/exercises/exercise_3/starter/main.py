@@ -6,7 +6,7 @@ from omegaconf import DictConfig
 
 # This automatically reads in the configuration
 @hydra.main(config_name='config')
-def go(config: DictConfig):
+def go(config: DictConfig) -> None:
 
     # Setup the wandb experiment. All runs will be grouped under this name
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
@@ -32,6 +32,16 @@ def go(config: DictConfig):
     # NOTE: use os.path.join(root_path, "process_data") to get the path
     # to the "process_data" component
     ##################
+    _ = mlflow.run(
+        os.path.join(root_path, "process_data"),
+        "main",
+        parameters={
+            "input_artifact": "iris.csv:latest",
+            "artifact_name": "clean_data.csv",
+            "artifact_type": "processed_data",
+            "artifact_description": "Cleaned data"
+        },
+    )
 
 
 

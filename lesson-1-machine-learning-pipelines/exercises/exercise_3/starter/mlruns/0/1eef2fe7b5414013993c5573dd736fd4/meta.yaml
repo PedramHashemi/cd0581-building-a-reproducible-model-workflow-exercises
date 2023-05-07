@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/1eef2fe7b5414013993c5573dd736fd4/artifacts
+end_time: 1683455501303
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1eef2fe7b5414013993c5573dd736fd4
+run_name: nervous-tern-286
+run_uuid: 1eef2fe7b5414013993c5573dd736fd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683455499725
+status: 4
+tags: []
+user_id: pedram

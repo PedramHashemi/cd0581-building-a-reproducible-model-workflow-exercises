@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/55146091c16e4303889d35ec8c43481a/artifacts
+end_time: 1683461463582
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55146091c16e4303889d35ec8c43481a
+run_name: aged-bat-961
+run_uuid: 55146091c16e4303889d35ec8c43481a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683461449976
+status: 4
+tags: []
+user_id: pedram

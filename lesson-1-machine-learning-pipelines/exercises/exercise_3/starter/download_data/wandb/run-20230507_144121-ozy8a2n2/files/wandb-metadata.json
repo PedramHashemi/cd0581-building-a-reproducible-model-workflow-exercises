@@ -1,0 +1,43 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.11.3",
+    "heartbeatAt": "2023-05-07T12:41:21.554447",
+    "startedAt": "2023-05-07T12:41:21.004572",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris.csv",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Input data"
+    ],
+    "state": "running",
+    "program": "/Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/download_data/download_data.py",
+    "git": {
+        "remote": "https://github.com/PedramHashemi/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": "s.pedram.h@gmail.com",
+    "root": "/Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "Hulk.fritz.box",
+    "username": "pedram",
+    "executable": "/Users/pedram/miniconda3/envs/mlflow-37bb3b58b8a97cbc98bda8718bef97ae12427d4c/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 188.83304595947266
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

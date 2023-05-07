@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/bd1079e3ef8c465780999d7d538a5b21/artifacts
+end_time: 1683455501476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd1079e3ef8c465780999d7d538a5b21
+run_name: amazing-skunk-125
+run_uuid: bd1079e3ef8c465780999d7d538a5b21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683455497267
+status: 4
+tags: []
+user_id: pedram

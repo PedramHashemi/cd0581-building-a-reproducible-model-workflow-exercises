@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/mlruns/0/2855cf3ed9e84b63b24e2836aae1a0cb/artifacts
+end_time: 1683454489775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2855cf3ed9e84b63b24e2836aae1a0cb
+run_name: unruly-sloth-223
+run_uuid: 2855cf3ed9e84b63b24e2836aae1a0cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683454421563
+status: 4
+tags: []
+user_id: pedram

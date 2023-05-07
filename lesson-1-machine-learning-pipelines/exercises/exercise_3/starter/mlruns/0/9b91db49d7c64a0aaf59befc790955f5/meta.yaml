@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/9b91db49d7c64a0aaf59befc790955f5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b91db49d7c64a0aaf59befc790955f5
+run_name: stylish-lynx-259
+run_uuid: 9b91db49d7c64a0aaf59befc790955f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683462640678
+status: 1
+tags: []
+user_id: pedram

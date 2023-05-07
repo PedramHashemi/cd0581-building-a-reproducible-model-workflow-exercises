@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/080628b14100410caa87c726343c5283/artifacts
+end_time: 1683457069772
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 080628b14100410caa87c726343c5283
+run_name: dashing-gnat-131
+run_uuid: 080628b14100410caa87c726343c5283
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683456978772
+status: 4
+tags: []
+user_id: pedram

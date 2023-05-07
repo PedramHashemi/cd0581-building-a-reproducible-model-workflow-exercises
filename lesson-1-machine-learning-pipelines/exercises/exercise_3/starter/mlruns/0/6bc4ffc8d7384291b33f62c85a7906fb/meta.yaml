@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/6bc4ffc8d7384291b33f62c85a7906fb/artifacts
+end_time: 1683456564567
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6bc4ffc8d7384291b33f62c85a7906fb
+run_uuid: 6bc4ffc8d7384291b33f62c85a7906fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683456563208
+status: 4
+tags: []
+user_id: pedram
