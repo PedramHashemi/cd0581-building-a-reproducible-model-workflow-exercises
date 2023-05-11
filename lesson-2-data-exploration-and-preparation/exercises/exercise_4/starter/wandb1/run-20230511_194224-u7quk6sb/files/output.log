@@ -1,0 +1,2 @@
+Artifact uploaded, use this artifact in a run by adding:
+    artifact = run.use_artifact("s-pedram-h/uncategorized/genres_mod.parquet:latest")

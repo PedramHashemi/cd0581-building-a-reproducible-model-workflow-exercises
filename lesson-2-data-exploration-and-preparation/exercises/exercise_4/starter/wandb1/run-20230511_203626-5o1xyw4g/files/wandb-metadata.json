@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.3.1-arm64-arm-64bit",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-05-11T18:36:27.308139",
+    "startedAt": "2023-05-11T18:36:26.582542",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/PedramHashemi/cd0581-building-a-reproducible-model-workflow-exercises.git",
+        "commit": "b97e1a7e730ce71bdecef1a4e8d09896f4be5459"
+    },
+    "email": "s.pedram.h@gmail.com",
+    "root": "/Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises",
+    "host": "Hulk.fritz.box",
+    "username": "pedram",
+    "executable": "/Users/pedram/miniconda3/envs/building-reproducible-model-workflow-3.8/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 174.91828536987305
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

@@ -1,5 +1,5 @@
-name: exercise-4
-conda_env: conda.yaml
+name: exercise_4
+conda_env: conda.yml
 
 entry_points:
   main:

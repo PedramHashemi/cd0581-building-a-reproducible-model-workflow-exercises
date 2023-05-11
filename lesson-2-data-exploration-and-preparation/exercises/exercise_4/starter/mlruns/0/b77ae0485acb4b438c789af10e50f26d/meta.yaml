@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/b77ae0485acb4b438c789af10e50f26d/artifacts
+end_time: 1683831462062
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b77ae0485acb4b438c789af10e50f26d
+run_name: flawless-cub-260
+run_uuid: b77ae0485acb4b438c789af10e50f26d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683831376609
+status: 4
+tags: []
+user_id: pedram

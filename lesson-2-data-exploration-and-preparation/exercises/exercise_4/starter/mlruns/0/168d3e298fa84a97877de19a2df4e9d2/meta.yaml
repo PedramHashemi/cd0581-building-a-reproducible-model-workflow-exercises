@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/pedram/PycharmProjects/cd0581-building-a-reproducible-model-workflow-exercises/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/168d3e298fa84a97877de19a2df4e9d2/artifacts
+end_time: 1683828572680
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 168d3e298fa84a97877de19a2df4e9d2
+run_name: awesome-shad-616
+run_uuid: 168d3e298fa84a97877de19a2df4e9d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683828056445
+status: 4
+tags: []
+user_id: pedram
