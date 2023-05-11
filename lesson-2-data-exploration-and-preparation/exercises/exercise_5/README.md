@@ -46,4 +46,7 @@ Hints:
    ```
    If it doesn't, check your exercise and fix it. Do not move on unless the command executes
    successfully, otherwise you won't be able to do some of the next exercises.
+
+   Run the code like this:
+   mlflow run . -P input_artifact="exercise_4/genres_mod.parquet:v0" -P artifact_name="preprocessed_data.csv" -P artifact_type="clean_data" -P artifact_description="Data after preprocessing"
    
