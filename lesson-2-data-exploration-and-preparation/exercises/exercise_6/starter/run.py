@@ -21,18 +21,18 @@ def go(args):
     artifact = run.use_artifact(args.input_artifact)
     artifact_path = artifact.file()
 
-    df = pd.read_csv(artifact_path, low_memory=False)
+    df_clean = pd.read_csv(artifact_path, low_memory=False)
 
     # Split model_dev/test
     logger.info("Splitting data into train and test")
     splits = {}
 
-    ###################################
-    # COMPLETE the following line     #
-    ###################################
-
-    splits["train"], splits["test"] = # USE train_test_split here to split df according to the provided args.test_size
-
+    splits["train"], splits["test"] = train_test_split(
+        df_clean,
+        test_size=args.test_size,
+        random_state=args.random_state,
+        stratify=df_clean[args.stratify] if args.stratify!='null' else None
+    )
     # Now we save the artifacts. We use a temporary directory so we do not leave
     # any trace behind
     with tempfile.TemporaryDirectory() as tmp_dir:
