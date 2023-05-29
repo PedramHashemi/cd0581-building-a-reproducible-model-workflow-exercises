@@ -11,6 +11,8 @@ from omegaconf import DictConfig
 def go(config: DictConfig):
 
     # Setup the wandb experiment. All runs will be grouped under this name
+    print("*-*-*-*-**-*-*-8-8-8-8-8-8")
+    print(config)
     os.environ["WANDB_PROJECT"] = config["main"]["project_name"]
     os.environ["WANDB_RUN_GROUP"] = config["main"]["experiment_name"]
 

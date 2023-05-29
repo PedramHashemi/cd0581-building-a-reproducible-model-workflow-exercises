@@ -3,11 +3,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas=1.2.3
+  - pandas
   - pip=20.3.3
-  - scikit-learn=0.24.1
-  - matplotlib==3.2.2
-  - plotly==4.4.1
-  - pillow=8.1.2
+  - scikit-learn=1.0.2
+  - matplotlib
+  - plotly
+  - pillow
+  - wandb
   - pip:
-      - wandb==0.10.21
+    - protobuf==3.20.1
