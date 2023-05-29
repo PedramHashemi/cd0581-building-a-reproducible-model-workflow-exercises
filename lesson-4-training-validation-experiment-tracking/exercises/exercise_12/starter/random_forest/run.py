@@ -89,6 +89,8 @@ def go(args):
 def export_model(run, pipe, X_val, val_pred, export_artifact):
 
     # Infer the signature of the model
+    object_cols = X_val.select_dtypes(include=['object']).columns.to_list()
+    X_val[object_cols] = X_val[object_cols].astype(str)
     signature = infer_signature(X_val, val_pred)
 
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -96,11 +98,24 @@ def export_model(run, pipe, X_val, val_pred, export_artifact):
         export_path = os.path.join(temp_dir, "model_export")
 
         #### YOUR CODE HERE
+        mlflow.sklearn.save_model(
+            pipe,
+            export_path,
+            signature=signature,
+            input_example=X_val.iloc[:2],
+            serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE
+        )
         # Save the pipeline in the export_path directory using mlflow.sklearn.save_model
         # function. Provide the signature computed above ("signature") as well as a few
         # examples (input_example=X_val.iloc[:2]), and use the CLOUDPICKLE serialization
         # format (mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE)
-
+        artifact = wandb.Artifact(
+            export_artifact,
+            type="model_export",
+            description='Random Forest Pipeline and Model'
+        )
+        artifact.add_dir(export_path)
+        run.log_artifact(artifact)
         # Then upload the temp_dir directory as an artifact:
         # 1. create a wandb.Artifact instance called "artifact"
         # 2. add the temp directory using .add_dir
